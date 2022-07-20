@@ -1,24 +1,17 @@
-# custom_setup_template
-My custom template for setting up my projects, including the folder structure as well as the basic html head structure and contents.
+# log4j-log4j2_migration_template
+My custom template for setting up my projects, Template project for Log4j migration to Log4j 2 in Spring Boot(Java).           
+Together with resources in the README file.           
+As a developer          
+I want to migrate Location Service to 2.17.2 of log4j 2         
+So that vulnerabilities can be mitigated.         
 
-<img src="#" width="600" height="350" alt="">             
+###### Acceptance Criteria
+- Current information logged from application should maintain the exact format in place currently 
+   - Details need to remain the same so upgrade is transparent to end users of logs
+-  Log4j version is upgraded to 2.17.2
+-  Create PR
+-  Create Release notes
 
-## Built With
-
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/css)
-* [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [Github](https://github.com/ShaviyaVictor/shaviya)
-
-## License
-
-This project is licensed under the [Apache License 2.0](https://github.com/ShaviyaVictor/custom_setup_template/blob/main/LICENSE).
-
-## Resources
-- [YouTube](#)
-- [Image source](#)
-- [Image Download Link](#)
 
 
 ## Acknowledgments
