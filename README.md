@@ -29,6 +29,7 @@ So that vulnerabilities can be mitigated.
 - [Migrating logging configurations to the Log4j 2 format](https://logging.apache.org/log4j/2.x/manual/migration.html)
 - [Log4j2 XML Configuration Example](https://howtodoinjava.com/log4j2/log4j2-xml-configuration-example/)
 - [Log4j2 – Useful Log Format Pattern Layouts](https://howtodoinjava.com/log4j2/useful-conversion-pattern-examples/)
+- [How to identify log4j2 or log4j in maven project](https://stackoverflow.com/a/70350552/17420216)
 
 ## Acknowledgments
 
