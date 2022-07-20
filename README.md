@@ -12,7 +12,23 @@ So that vulnerabilities can be mitigated.
 -  Create PR
 -  Create Release notes
 
+## Built With
 
+* [Java](https://docs.oracle.com/javase/8/docs/api/)
+* [Spring](https://docs.spring.io/spring-framework/docs/current/reference/html/)
+* [Spring Initializr](https://start.spring.io/)
+
+## Resources
+- [start.spring](shorturl.at/MR245)
+- [locating maven .m2 folder that contains the settings.xml file](https://stackoverflow.com/a/6084599/17420216)
+- [Very simple log4j2 XML configuration file using Console and File appender](https://stackoverflow.com/a/21206994/17420216)
+- [creating a new file is created after a file size eg.5mb limit has been reached](https://stackoverflow.com/a/13849455/17420216)
+- [Log4J2 Vulnerability and Spring Boot](https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot)
+- [Configure Log4j for Logging](https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.logging.log4j)
+- [Appenders](https://logging.apache.org/log4j/2.x/manual/appenders.html)
+- [Migrating logging configurations to the Log4j 2 format](https://logging.apache.org/log4j/2.x/manual/migration.html)
+- [Log4j2 XML Configuration Example](https://howtodoinjava.com/log4j2/log4j2-xml-configuration-example/)
+- [Log4j2 – Useful Log Format Pattern Layouts](https://howtodoinjava.com/log4j2/useful-conversion-pattern-examples/)
 
 ## Acknowledgments
 
