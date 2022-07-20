@@ -19,7 +19,7 @@ So that vulnerabilities can be mitigated.
 * [Spring Initializr](https://start.spring.io/)
 
 ## Resources
-- [start.spring](shorturl.at/MR245)
+- [start.spring](https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.7.1&packaging=jar&jvmVersion=1.8&groupId=com.example&artifactId=log4j2&name=log4j2&description=Template%20project%20for%20Log4j%20migration%20to%20Log4j%202%20in%20Spring%20Boot(Java).%20Together%20with%20resources%20in%20the%20README%20file.&packageName=com.example.log4j2&dependencies=devtools,lombok,web,security,h2,postgresql)
 - [locating maven .m2 folder that contains the settings.xml file](https://stackoverflow.com/a/6084599/17420216)
 - [Very simple log4j2 XML configuration file using Console and File appender](https://stackoverflow.com/a/21206994/17420216)
 - [creating a new file is created after a file size eg.5mb limit has been reached](https://stackoverflow.com/a/13849455/17420216)
