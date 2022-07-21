@@ -1,4 +1,7 @@
+
+### Contains the basic configuration of a settings.xml file that is used by maven   ###
 .m2
+
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
