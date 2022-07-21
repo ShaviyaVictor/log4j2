@@ -2,6 +2,8 @@
 <!--This .xml file is the initial log4j file that now has vulnarabilities
 These vulnarabilities need to be mitigated by shifting to Log4j2 which has a fix-->
 
+<!--
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
 <log4j:configuration debug="false"
@@ -35,3 +37,5 @@ These vulnarabilities need to be mitigated by shifting to Log4j2 which has a fix
     </root>
 
 </log4j:configuration>
+
+-->
