@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration debug="false"
+                     xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+    <appender class="org.apache.log4j.ConsoleAppender" name="stdout">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param value="[%d{ISO8601}] [%t] %p [%L] %c - %m%n" name="ConversionPattern"/>
+        </layout>
+    </appender>
+
+    <appender class="org.apache.log4j.RollingFileAppender" name="sys">
+        <param value="/var/log/digicel/location/stores-service.out" name="File" />
+        <param value="10" name="MaxBackupIndex" />
+        <param value="5MB" name="MaxFileSize" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param value="[%d{ISO8601}] [%t] %p [%L] %c - %m%n" name="ConversionPattern"/>
+        </layout>
+    </appender>
+
+    <logger additivity="false" name="com.digicel">
+        <level value="info"/>
+        <appender-ref ref="stdout"/>
+        <appender-ref ref="sys"/>
+    </logger>
+
+    <root>
+        <level value="info" />
+        <appender-ref ref="stdout" />
+        <appender-ref ref="sys"/>
+    </root>
+
+</log4j:configuration>
