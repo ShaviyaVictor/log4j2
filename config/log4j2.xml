@@ -1,5 +1,19 @@
 
+<!--
 
+The new log4j2.xml file configuration meant to mitigate the vulnarabilities with a fix
+It contains the Console and the RollingFile in the Appenders
+    Console prints the level values to the terminal/console
+    RollingFile appender on the other hand is meant to print the data to a File guided by the params and child appenders
+        the name to specify where the file is to be printed with 'sys'- implying print to the machine system home folder
+        fileName to declare the storage path of the file to be printed
+        filePattern to declares how the daily rolling file will be written adding the timestamp working in line with the guidance of Policies and the RolloverStrategy
+        SizeBasedTriggeringPolicy is to define the size of each complete file print
+        DefaultRolloverStrategy defines how many files are to be printed in a single timestamp folder to allow for another folder to be created
+        PatternLayout defines the pattern in which the logs should be printed
+It also contains the Loggers that contains the Logger and Root which both have the AppenderRef tag for the Appenders
+
+-->
 
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
