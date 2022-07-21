@@ -78,6 +78,17 @@
 			<artifactId>spring-boot-starter-log4j2</artifactId>
 		</dependency>
 
+		<!--
+		OR
+		Using the below dependancies instead log4j and slf4j
+		... when the logs print a different version of Log4j,
+		OR
+		... the External Libraries display log4j jar files of different versions
+		ANOTHER SOLUTION
+		Is to close the file and open it in IntelliJ again
+		OR
+		...	or close the file and open it in VS Code and run mvn dependency:tree -Dverbose on git bash
+		-->
 
 		<!--<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
