@@ -1,4 +1,6 @@
 
+<!--This will be the reference point for Log4j migrations-->
+
 <!--
 
 The new log4j2.xml file configuration meant to mitigate the vulnarabilities with a fix
